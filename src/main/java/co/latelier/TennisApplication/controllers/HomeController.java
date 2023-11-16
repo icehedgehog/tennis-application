@@ -12,7 +12,7 @@ public class HomeController {
                 "<ul>" +
                 "<li>Get all players: <code>/api/players</code></li>" +
                 "<li>Get a player by ID: <code>/api/players/{id}</code></li>" +
-                "<li>Get statistics: <code>/api/statistics</code></li>" +
+                "<li>Get statistics: <code>/api/stats</code></li>" +
                 "</ul>" +
                 "<p>The last endpoint returns statistics such as the country with the highest win ratio, the average BMI of players, and the median height of players.</p>";
     }
