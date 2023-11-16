@@ -30,9 +30,9 @@ mvn test
 ## Utilisation de l'API
 L'application expose plusieurs endpoints RESTful. Voici quelques exemples d'utilisation :
 
-Obtenir tous les joueurs : GET /api/players
-Obtenir un joueur par ID : GET /api/players/{id}
-Obtenir des statistiques : GET /api/statistics
+Obtenir tous les joueurs : /api/players
+Obtenir un joueur par ID : /api/players/{id}
+Obtenir des statistiques : /api/stats
 
 Ce dernier endpoint retourne des statistiques telles que le pays avec le plus grand ratio de parties gagnées, l'IMC moyen des joueurs, et la médiane de la taille des joueurs.
 
